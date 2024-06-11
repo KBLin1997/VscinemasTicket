@@ -3,6 +3,14 @@ body{
     background-color: antiquewhite;
 }
 
+nav > ul{
+    display: flex;
+}
+
 nav > ul > li{
+    display: block;
+    box-sizing: border-box;
+    margin-right: 20px;
     color: brown;
+    font-weight: bold;
 }
