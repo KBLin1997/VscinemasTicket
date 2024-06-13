@@ -1,4 +1,4 @@
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 1280px) {
 	
     .header{
 	    width: auto;
@@ -8,14 +8,17 @@
         width: auto;
     }
 
+    .top{
+        width: auto;
+    }
+
     .main .container{
         width: auto;
-        gap: 8px;
     }
 
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 1160px) {
 
     .header .nav i{
         display: block;
@@ -63,11 +66,11 @@
 
     .main .container{
         width: auto;
+        gap: 16px;
     }
 
     .main .list{
-        width: 257px;
-        padding-left: 5px;
+        width: auto;
     }
 
     .main .list img{
@@ -90,4 +93,49 @@
         width: 257px;
     }
 
+}
+
+@media screen and (max-width: 800px) {
+    .main .list{
+        width: auto;
+    }
+
+    .main .list img{
+        width: 195px;
+        height: 279px;
+    }
+
+    .main .list h3{
+        width: 195px;
+        height: 52px;
+        font-size: 16px;
+        line-height: 160%;
+    }
+
+    .main .list h5{
+        width: 195px;
+        height: 44px;
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .main .list p{
+        font-size: 14px;
+        line-height: 160%;
+    }
+
+    .main .list .badgelist ul{
+        width: 195px;
+        font-size: 14px;
+    }
+
+    #sixth{
+        display: none;
+    }
+
+    .main .list button{
+        width: 195px;
+        height: 40px;
+        font-size: 20px;
+    }
 }
