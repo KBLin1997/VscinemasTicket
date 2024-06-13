@@ -1,0 +1,475 @@
+@import url(reset.css);
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+.wrapper{
+    
+    background-color: white;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 0 auto;
+    background-color: #3460A4;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav{
+    position: relative;
+    display: flex;
+    gap: 350px;
+}
+
+.nav img{
+    width: 194px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.navbar{
+    box-sizing: border-box;
+    justify-content: flex-start;
+    padding: 25px 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    line-height: 160%;
+    margin-right: 32px;
+    font-weight: bold;
+    
+}
+
+.navbar a:hover{
+
+    color: #C7DFF3;
+}
+
+.navbar .btn1{
+    cursor: pointer;
+    display: inline-block;
+    background-color: #4A97D8;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    padding: 10px 20px;
+    margin-right: 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.navbar .btn1:hover{
+    color: #4B4B4B;
+    background-color: #C7DFF3;
+}
+
+/* ------------------頁籤------------------------- */
+
+.top{
+    height: 32px;
+    width: 1160px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: 7px solid #3460A4;
+}
+
+.top .tab1{
+    color: #3460A4;
+    font-size: 28px;
+    line-height: 140%;
+    font-weight:bold;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+/* ------------------電影簡介------------------ */
+.main{
+    margin: 10px auto;
+}
+
+.main .container{
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.main .left{
+    width: 375px;
+    margin-right: 40px;
+}
+
+
+.main .left img{
+    width: 375px;
+    height: 535px;
+    margin-bottom: 4px;
+}
+
+.main .left button{
+    width: 375px;
+    height: 70px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    line-height: 140%;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    background-color: #4A97D8;
+    border: none;
+    border-radius: 4px;
+}
+
+.main .left button:hover{
+    background-color: #3460A4;
+}
+
+.righttop{
+    margin-bottom: 24px;
+}
+
+.righttop h1{
+    font-size: 32px;
+    line-height: 140%;
+    color: #4B4B4B;
+    font-weight: bold;
+}
+
+.righttop h2{
+    font-size: 28px;
+    line-height: 140%;
+    color: #4B4B4B;
+    font-weight: bold;
+}
+
+.main .righttop .badgelist ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 12px;
+    
+}
+
+.main .righttop .badgelist li{
+    color: #4B4B4B;
+    padding: 3px;
+    margin: 2px 4px 2px 0px;
+    box-sizing: border-box;
+    border: 1px solid #4B4B4B;
+    border-radius: 4px;
+    background-color: #C7DFF3;
+}
+
+
+.righttop img{
+    width: 48px;
+    border-radius: 8px;
+}
+
+.rightcenter ul li{
+    display: flex;
+    gap: 32px;
+    margin-bottom: 16px;
+}
+
+.rightcenter ul li:nth-child(6){
+    flex-direction: column;
+    row-gap: 4px;
+}
+
+.rightcenter ul li h3{
+    font-size: 24px;
+    line-height: 140%;
+    color: #4B4B4B;
+    font-weight: bold;
+}
+
+.rightcenter ul li p{
+    font-size: 24px;
+    line-height: 140%;
+    color: #4B4B4B;
+}
+
+.rightcenter ul li:nth-child(6) p{
+    font-size: 18px;
+    color: #4B4B4B;
+}
+
+
+
+ 
+
+
+
+
+/* ----------------場次區域---------------- */
+
+
+.maindown{
+    background-color: #F3F3F3;
+    padding-top: 10px;
+}
+
+/* ------------區域標題-------------- */
+
+.middle{
+    height: 32px;
+    width: 1160px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-left: 3px solid #3460A4;
+}
+
+.middle .tab2{
+    color: #3460A4;
+    font-size: 28px;
+    line-height: 140%;
+    font-weight:bold;
+    padding-left: 10px;
+
+}
+
+/* -----------下拉式選單----------- */
+
+.dropdown{
+    width: 1160px;
+    margin: 20px auto;
+    display: flex;
+    gap: 8px;
+}
+
+/* -----------下拉式選單:影城----------- */
+
+.dropdown nav {
+  width : 315px; 
+  border: 1px solid #B1B1B1;
+  border-radius: 4px;
+  background-color: white;
+  
+}
+
+span {
+  padding : 10px 15px;
+  color: #3460A4;
+  font-size : 24px;
+  line-height: 140%;
+  font-weight: bold;
+  cursor : pointer;
+  display: block;
+}
+
+.bi-chevron-down{
+    margin-left: auto;
+
+}
+
+
+.theater {
+  clear:both;
+  position: absolute;
+  width: 315px;;
+  height:0px;
+  overflow: hidden;
+  transition: height .4s ease;
+  background-color: #ffffff;
+  border-radius: 4px;
+  margin-top: 8px;
+}
+
+.theater li {
+    padding : 20px;
+}
+
+.theater li a {
+    text-decoration : none;
+    color : #3460A4;
+}
+
+#touch {
+    position: absolute; 
+    opacity: 0; 
+    height: 0px;
+}    
+
+#touch:checked + .theater {
+    height: 400px;
+} 
+
+/* -----------下拉式選單:版本----------- */
+
+nav {
+    width : 315px; 
+    border: 1px solid #B1B1B1;
+    border-radius: 4px;
+    background-color: white;
+    
+  }
+  
+span {
+    padding : 10px 15px;
+    color: #3460A4;
+    font-size : 24px;
+    line-height: 140%;
+    font-weight: bold;
+    cursor : pointer;
+    display: block;
+  }
+  
+.bi-chevron-down{
+      margin-left: 135px;
+  
+  }
+  
+  
+.dropdown .version {
+    clear:both;
+    position: absolute;
+    width: 315px;;
+    height:0px;
+    overflow: hidden;
+    transition: height .4s ease;
+    background-color: #ffffff;
+    border-radius: 4px;
+    margin-top: 8px;
+  }
+  
+.dropdown .version li {
+      padding : 20px;
+  }
+  
+.dropdown .version li a {
+      text-decoration : none;
+      color : #3460A4;
+  }
+  
+#touch2 {
+      position: absolute; 
+      opacity: 0; 
+      height: 0px;
+  }    
+  
+#touch2:checked + .version {
+      height: 345px;
+  } 
+
+
+/* ----------日期與場次------------ */
+
+.day{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.today h5{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4B4B4B;
+    line-height: 160%;
+    border-bottom: 2px solid #4B4B4B;
+    margin-bottom: 10px;
+}
+
+.tomorrow h5{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #4B4B4B;
+    line-height: 160%;
+    border-bottom: 2px solid #4B4B4B;
+    margin-bottom: 10px;
+    margin-top: 24px;
+}
+
+.movietime ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 13.5px;
+}
+
+.movietime li{
+    display: flex;
+    flex-direction: column;
+    border: 0.1px solid #ccc;
+    border-radius: 12px;
+    width: 180px;
+    height: 170px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.movietime li:hover{
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.movietime h6{
+    font-size: 20px;
+    color: #3460A4;
+    font-weight: bold;
+    line-height: 200%;
+}
+
+.movietime p{
+    font-size: 20px;
+    color: #4B4B4B;
+    line-height: 200%;
+    padding-bottom: 10px;
+}
+
+.movietime button{
+    font-size: 20px;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: bold;
+    background-color: #3460A4;
+    width: 180px;
+    height: 40px;
+    border: none;
+}
+
+
+
+
+
+
+
+
+/* --------------Footer------------ */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #EFEFEF;
+    height: 60px;
+}
+
+.footer p{
+    text-align: center;
+    color: #8B8B8B;
+    margin-top: 22px;
+}
+.footer a{
+    margin-top: 22px;
+    color: #8B8B8B;
+}
+
+
