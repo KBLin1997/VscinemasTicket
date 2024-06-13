@@ -1,0 +1,242 @@
+@import url(reset.css);
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+
+.header{
+    background-color: #3460A4;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav img{
+    width: 194px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+.header .nav i{
+    display: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    line-height: 160%;
+    margin-right: 32px;
+    font-weight: bold;
+    display: block;
+}
+
+.navbar a:hover{
+    color: #C7DFF3;
+}
+
+.navbar .btn1{
+    cursor: pointer;
+    display: block;
+    background-color: #4A97D8;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: center;
+    padding: 10px 20px;
+    margin-right: 0;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.navbar .btn1:hover{
+    color: #4B4B4B;
+    background-color: #C7DFF3;
+}
+
+
+.wrapper{
+    width: 1160px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+/* ------------------頁籤------------------------- */
+
+.top{
+    height: 60px;
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.top .tab1{
+    color: #3460A4;
+    font-size: 28px;
+    line-height: 140%;
+    font-weight:bold;
+    border-bottom: 3px solid #3460A4;
+    margin-right: 24px;
+    margin-top: 8px;;
+
+}
+
+.top .tab2{
+    color: #4B4B4B;
+    font-size: 28px;
+    line-height: 140%;
+    font-weight:bold;
+    margin-top: 8px;;
+}
+
+
+
+
+
+
+
+
+/* ------------------中間電影區塊------------------ */
+.main{
+    padding: 10px 0px 20px 0px;
+}
+
+.main .container{
+    margin: 0 auto;
+    width: 1160px;
+    display: flex;
+    /* justify-content:flex-start; */
+    gap: 14.5px;
+    flex-wrap: wrap;
+
+}
+
+.main .list{
+    width: 279px;
+    margin: 0 auto;
+}
+
+
+.main .list img{
+    width: 279px;
+    height: 390px;
+    margin-bottom: 4px;
+}
+
+.main .list h3{
+    font-size: 24px;
+    line-height: 140%;
+    color: #4B4B4B;
+    font-weight: bold;
+    width: 279px;
+    height: 68px;
+    margin-bottom: 4px;
+    
+}
+
+.main .list h5{
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B4B4B;
+    font-weight: bold;
+    width: 279px;
+    height: 52px;
+    margin-bottom: 4px;
+}
+
+.main .list p{
+    font-size: 16px;
+    line-height: 140%;
+    color: #4B4B4B;
+    margin-bottom: 4px;
+}
+
+.main .list .badgelist ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 279px;
+    height: 48px;
+    margin-bottom: 12px;
+    
+}
+
+.main .list .badgelist li{
+    color: #4B4B4B;
+    padding: 3px;
+    margin: 2px 4px 2px 0px;
+    box-sizing: border-box;
+    border: 1px solid #4B4B4B;
+    border-radius: 4px;
+    background-color: #C7DFF3;
+}
+
+.main .list button{
+    width: 279px;
+    height: 60px;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    line-height: 140%;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    background-color: #4A97D8;
+    border: none;
+    border-radius: 4px;
+}
+
+.main .list button:hover{
+    background-color: #3460A4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------Footer------------ */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #EFEFEF;
+    height: 60px;
+}
+
+.footer p{
+    text-align: center;
+    color: #8B8B8B;
+    margin-top: 22px;
+}
+.footer a{
+    margin-top: 22px;
+    color: #8B8B8B;
+}
+
+

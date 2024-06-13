@@ -1,0 +1,93 @@
+@media screen and (max-width: 1160px) {
+	
+    .header{
+	    width: auto;
+    }
+
+    .wrapper{
+        width: auto;
+    }
+
+    .main .container{
+        width: auto;
+        gap: 8px;
+    }
+
+}
+
+@media screen and (max-width: 820px) {
+
+    .header .nav i{
+        display: block;
+    }
+
+    .header .nav i{
+        color: white;
+        font-size: 36px;
+        margin-right: 20px;
+    }
+
+    .navbar{
+        position: absolute;
+		background-color: #4A97D8;
+		left: 0;
+		top: 100px;
+		width: 100%;
+        display: none;
+    }
+
+    .navbar a{
+        font-size: 24px;
+        text-align: center;
+        line-height: 160%;
+        margin: 20px auto;
+
+    }
+
+    .navbar .btn1{
+        font-size: 24px;
+        margin: 0 auto;
+        background-color: #3460A4;
+        width: 162px;
+        height: 30px;
+    }
+
+    .nav i:hover ~ .navbar {
+        display: block;
+    }
+
+    .top {
+        padding-left: 8px;
+    }
+
+
+    .main .container{
+        width: auto;
+    }
+
+    .main .list{
+        width: 257px;
+        padding-left: 5px;
+    }
+
+    .main .list img{
+        width: 257px;
+    }
+
+    .main .list h3{
+        width: 257px;
+    }
+
+    .main .list h5{
+        width: 257px;
+    }
+
+    .main .list .badgelist ul{
+        width: 257px;
+    }
+
+    .main .list button{
+        width: 257px;
+    }
+
+}
