@@ -1,0 +1,317 @@
+@media screen and (max-width: 1280px) {
+
+    .top{
+        width: auto;
+    }
+
+    .container{
+        width: auto;
+    }
+
+    .middle{
+        width: auto;
+    }
+
+    .dropdown{
+        width: auto;
+    }
+
+    .maindown{
+        width: auto;
+    }
+
+    /* -------------頁籤-------------- */
+    .top{
+        margin-left: 20px;
+    }
+    
+    .container{
+        margin: 0 20px;
+    }
+    
+    .maindown{
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1160px) {
+
+    .nav img{
+        margin-left: 20px;
+    }
+
+    /* ----------漢堡選單---------- */
+    .header .nav i{
+        display: block;
+    }
+
+    .header .nav i{
+        color: white;
+        font-size: 36px;
+        margin-right: 20px;
+    }
+
+    .navbar{
+        position: absolute;
+		background-color: #4A97D8;
+		left: 0;
+		top: 100px;
+		width: 100%;
+        display: none;
+    }
+
+    .navbar a{
+        font-size: 24px;
+        text-align: center;
+        line-height: 160%;
+        margin: 20px auto;
+
+    }
+
+    .navbar .btn1{
+        font-size: 24px;
+        margin: 0 auto;
+        background-color: #3460A4;
+        width: 162px;
+        height: 30px;
+    }
+
+    .nav i:hover ~ .navbar {
+        display: block;
+    }
+
+    .rightcenter h3{
+        min-width: 120px;
+    }
+
+@media screen and (max-width: 820px) {
+
+    /* ----------電影簡介--------- */
+    .main .left{
+        margin-right: 24px;
+    }
+
+    .righttop{
+        margin-bottom: 16px;
+    }
+
+    .badgelist ul{
+        margin-bottom: 4px;
+    }
+
+    .righttop h1{
+        font-size: 28px;
+    }
+
+    .righttop h2{
+        font-size: 24px;
+    }
+
+    .rightcenter h3{
+        font-size: 18px;
+    }
+    .rightcenter p{
+        font-size: 18px;
+    }
+
+    .rightcenter ul li:nth-child(6) p{
+        font-size: 15.5px;
+    }
+
+    .movietime ul{
+        gap: 8px;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .top{
+        margin-left: 10px;
+    }
+
+    .main{
+        margin: 0;
+    }
+
+    .container{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    /* --------電影簡介-------- */
+    .main .left{
+        width: 398px;
+        margin: 0 auto;
+    }
+
+    .main .left img{
+        width: 398px;
+    }
+
+    .main .left button{
+        width: 398px;
+    }
+
+    .righttop{
+        width: 398px;
+        margin: 0 auto;
+    }
+
+    .rightcenter{
+        width: 398px;
+        margin: 0 auto;
+    }
+
+    /* ----------場次區域--------- */
+
+    /* ---------下拉式選單-------- */
+    .dropdown{
+        justify-content: center;
+    }
+
+    .dropdown nav {
+        width: 200px;
+    }
+
+    .bi-chevron-down{
+        margin-left: 25px;
+    }
+
+    .theater {
+        width: 200px;
+    }
+
+    .dropdown .version{
+        width: 200px;
+    }
+
+    #touch:checked + .theater {
+        height: 450px;
+    } 
+
+    .movietime ul{
+        justify-content: center;
+    }
+
+    /* --------footer-------- */
+    .footer{
+        height: 65px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly
+    }
+
+    .footer p{
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .footer a{
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (max-width: 602px) {
+    .main .left{
+        margin-bottom: 16px;
+    }
+
+    .rightcenter ul li{
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .righttop{
+        margin-bottom: 8px;
+    }
+
+    .middle .tab2{
+        font-size: 24px;
+    }
+
+    span {
+        font-size: 16px;
+    }
+
+    .bi-chevron-down{
+        margin-left: 70px;
+    }
+
+    .movietime li{
+        width: 160px;
+    }
+
+    .movietime button{
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .bi-chevron-down{
+        margin-left: 60px;
+    }
+
+    #cinema{
+        display: none;
+    }
+
+    .movietime p{
+        line-height: 200%;
+    }
+
+    .bi-chevron-down{
+        margin-left: 40px;
+    }
+
+    .movietime li{
+        width: 120px;
+        height: 130px;
+    }
+
+    .movietime button{
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main .left{
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .main .left img{
+        width: 350px;
+    }
+
+    .main .left button{
+        width: 350px;
+    }
+
+    .righttop{
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .rightcenter{
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .theater {
+        width: 170px;
+    }
+
+    .dropdown .version{
+        width: 170px;
+    }
+
+    #touch:checked + .theater {
+        height: 500px;
+    } 
+}
+
+}

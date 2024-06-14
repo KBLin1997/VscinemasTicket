@@ -6,25 +6,28 @@
   <link rel="stylesheet" href="css/movieinfo.css">
   <link rel="stylesheet" href="css/movieinfoRWD.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <title> movieinfoPage2</title>
 </head>
 <body>
 
-  <div class="wrapper">
+  <!-- -----------header------------- -->
+  <div class="header">
+    <div class="nav">
+      <img src="img/logo.png" alt="">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+      <div class="navbar">
+        <a href="#">級數說明</a>
+        <a href="#">票種介紹</a>
+        <a href="#">版本介紹</a>
+        <a href="#">操作說明</a>
+        <a href="#" class="btn1">登入威秀影城</a>
+      </div>
+     </div>
+  </div>
 
-    <!-- -----------header------------- -->
-    <div class="header">
-      <div class="nav">
-        <img src="img/logo.png" alt="">
-        <div class="navbar">
-          <a href="#">級數說明</a>
-          <a href="#">票種介紹</a>
-          <a href="#">版本介紹</a>
-          <a href="#">操作說明</a>
-          <a href="#" class="btn1">登入威秀影城</a>
-        </div>
-       </div>
-    </div>
+  <!-- -------------電影簡介&線上訂票-------------- -->
+  <div class="wrapper">
 
     <!-- -----------頁籤------------- -->
     <div class="top">
@@ -47,12 +50,14 @@
             <h2>FURIOSA A MAD MAX SAGA</h2>
             <div class="badgelist">
               <ul>
-               <li>數位</li>
-               <li>MUCROWN</li>
-               <li>TITAN</li>
-               <li>4DX</li>
-               <li>IMAX</li>
-               <li>GC數位</li>
+               <li>數位/英</li>
+               <li>MUCROWN/英</li>
+               <li>TITAN/英</li>
+               <li>4DX/英</li>
+               <li>IMAX/英</li>
+               <li>GC數位/英</li>
+               <li>A+/英</li>
+               <li>ATMOS/英</li>
               </ul>
             </div>
             <img src="img/age_15.png" alt="">
@@ -74,7 +79,7 @@
               </li>
               <li>
                 <h3>電影演員：</h3>
-                <p>安雅泰勒喬伊、克里斯漢斯沃、湯姆伯克</p>
+                <p>安雅泰勒喬伊、克里斯漢斯沃</p>
               </li>
               <li>
                 <h3>電影類型：</h3>
@@ -148,36 +153,54 @@
         </div>
         <div class="movietime">
           <ul>
-            <a href="seat.html"><li>
-              <h6>9:30</h6>
-              <p>1廳<br>數位/英</p>
-              <button>查看座位</button>
-            </li></a>
-            <li>
-              <h6>10:30</h6>
-              <p>2廳<br>數位/英</p>
-              <button>查看座位</button>
-            </li>
-            <li>
-              <h6>12:30</h6>
-              <p>3廳<br>數位/英</p>
-              <button>查看座位</button>
-            </li>
-            <li>
-              <h6>13:30</h6>
-              <p>1廳<br>數位/英</p>
-              <button>查看座位</button>
-            </li>
-            <li>
-              <h6>15:30</h6>
-              <p>5廳<br>數位/英</p>
-              <button>查看座位</button>
-            </li>
-            <li>
-              <h6>17:30</h6>
-              <p>3廳<br>數位/英</p>
-              <button>查看座位</button>
-            </li>
+            <a href="seat.html">
+              <li>
+                <h6>9:30</h6>
+                <p id="cinema">1廳</p>
+                <p>數位/英</p>
+                <button>查看座位</button>
+              </li>
+            </a>
+            <a href="seat.html">
+              <li>
+                <h6>10:30</h6>
+                <p id="cinema">2廳</p>
+                <p>數位/英</p>
+                <button>查看座位</button>
+              </li>
+            </a>
+            <a href="seat.html">
+              <li>
+                <h6>12:30</h6>
+                <p id="cinema">3廳</p>
+                <p>數位/英</p>
+                <button>查看座位</button>
+              </li>
+            </a>
+            <a href="seat.html">
+              <li>
+                <h6>13:30</h6>
+                <p id="cinema">1廳</p>
+                <p>數位/英</p>
+                <button>查看座位</button>
+              </li>
+            </a>
+            <a href="seat.html">
+              <li>
+                <h6>15:30</h6>
+                <p id="cinema">5廳</p>
+                <p>數位/英</p>
+                <button>查看座位</button>
+              </li>
+            </a>
+            <a href="seat.html">
+              <li>
+                <h6>17:30</h6>
+                <p id="cinema">3廳</p>
+                <p>數位/英</p>
+                <button>查看座位</button>
+              </li>
+            </a>
           </ul>
         </div>
 
@@ -188,47 +211,56 @@
           <ul>
             <li>
               <h6>9:30</h6>
-              <p>1廳<br>數位/英</p>
+              <p id="cinema">1廳</p>
+              <p>數位/英</p>
               <button>查看座位</button>
             </li>
             <li>
               <h6>10:30</h6>
-              <p>2廳<br>數位/英</p>
+              <p id="cinema">2廳</p>
+              <p>數位/英</p>
               <button>查看座位</button>
             </li>
             <li>
               <h6>12:30</h6>
-              <p>3廳<br>數位/英</p>
+              <p id="cinema">3廳</p>
+              <p>數位/英</p>
               <button>查看座位</button>
             </li>
             <li>
               <h6>13:30</h6>
-              <p>1廳<br>數位/英</p>
+              <p id="cinema">1廳</p>
+              <p>數位/英</p>
               <button>查看座位</button>
             </li>
             <li>
               <h6>15:30</h6>
-              <p>5廳<br>數位/英</p>
+              <p id="cinema">5廳</p>
+              <p>數位/英</p>
               <button>查看座位</button>
             </li>
             <li>
               <h6>17:30</h6>
-              <p>3廳<br>數位/英</p>
+              <p id="cinema">3廳</p>
+              <p>數位/英</p>
               <button>查看座位</button>
             </li>
             <li>
               <h6>18:30</h6>
-              <p>7廳<br>數位/英</p>
+              <p id="cinema">7廳</p>
+              <p>數位/英</p>
               <button>查看座位</button>
             </li>
             <li>
               <h6>19:00</h6>
-              <p>2廳<br>數位/英</p>
+              <p id="cinema">2廳</p>
+              <p>數位/英</p>
               <button>查看座位</button>
             </li>
             <li>
               <h6>20:30</h6>
-              <p>1廳<br>數位/英</p>
+              <p id="cinema">1廳</p>
+              <p>數位/英</p>
               <button>查看座位</button>
             </li>
           </ul>
@@ -236,13 +268,13 @@
       </div>
     </div>
 
-    <!-- -------------footer------------------ -->
-    <div class="footer">
-      <p>Copyright © 2016 威秀影城 VIESHOW Cinemas. All Rights Reserved.</p>
-      <a href="#">隱私權政策</a>
-    </div>
-
   </div>
   
+  <!-- -------------footer------------------ -->
+  <div class="footer">
+    <p>Copyright © 2016 威秀影城 VIESHOW Cinemas. All Rights Reserved.</p>
+    <a href="#">隱私權政策</a>
+  </div>
+
 </body>
 </html>

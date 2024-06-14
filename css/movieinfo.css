@@ -5,35 +5,35 @@ body{
     background-color: white;
 }
 
-.wrapper{
-    
-    background-color: white;
-    margin: 0 auto;
-}
-
+/* ----------header------------ */
 .header{
-    margin: 0 auto;
     background-color: #3460A4;
     height: 100px;
     display: flex;
     justify-content: space-evenly;
 }
 
+
 .nav{
-    position: relative;
+    width: 1160px;
+    margin: 0 auto;
     display: flex;
-    gap: 350px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav img{
     width: 194px;
     height: 80px;
-    margin-top: 10px;
+}
+
+.header .nav i{
+    display: none;
 }
 
 .navbar{
-    box-sizing: border-box;
-    justify-content: flex-start;
+    display: flex;
+    align-items: center;
     padding: 25px 0;
 }
 
@@ -44,7 +44,7 @@ body{
     line-height: 160%;
     margin-right: 32px;
     font-weight: bold;
-    
+    display: block;
 }
 
 .navbar a:hover{
@@ -54,7 +54,7 @@ body{
 
 .navbar .btn1{
     cursor: pointer;
-    display: inline-block;
+    display: block;
     background-color: #4A97D8;
     font-size: 20px;
     line-height: 140%;
@@ -70,7 +70,14 @@ body{
     background-color: #C7DFF3;
 }
 
-/* ------------------頁籤------------------------- */
+/* ------------------電影簡介&線上訂票------------------- */
+.wrapper{
+    
+    background-color: white;
+    margin: 0 auto;
+}
+
+/* ------------------頁籤------------------- */
 
 .top{
     height: 32px;
@@ -90,19 +97,12 @@ body{
     padding-left: 10px;
 }
 
-
-
-
-
-
-
-
 /* ------------------電影簡介------------------ */
 .main{
     margin: 10px auto;
 }
 
-.main .container{
+.container{
     width: 1160px;
     margin: 0 auto;
     display: flex;
@@ -156,7 +156,7 @@ body{
     font-weight: bold;
 }
 
-.main .righttop .badgelist ul{
+.badgelist ul{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -165,7 +165,7 @@ body{
     
 }
 
-.main .righttop .badgelist li{
+.badgelist li{
     color: #4B4B4B;
     padding: 3px;
     margin: 2px 4px 2px 0px;
@@ -192,14 +192,14 @@ body{
     row-gap: 4px;
 }
 
-.rightcenter ul li h3{
+.rightcenter h3{
     font-size: 24px;
     line-height: 140%;
     color: #4B4B4B;
     font-weight: bold;
 }
 
-.rightcenter ul li p{
+.rightcenter p{
     font-size: 24px;
     line-height: 140%;
     color: #4B4B4B;
@@ -209,13 +209,6 @@ body{
     font-size: 18px;
     color: #4B4B4B;
 }
-
-
-
- 
-
-
-
 
 /* ----------------場次區域---------------- */
 
@@ -234,7 +227,7 @@ body{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    border-left: 3px solid #3460A4;
+    border-left: 7px solid #3460A4;
 }
 
 .middle .tab2{
@@ -261,8 +254,7 @@ body{
   width : 315px; 
   border: 1px solid #B1B1B1;
   border-radius: 4px;
-  background-color: white;
-  
+  background-color: rgb(255, 255, 255);
 }
 
 span {
@@ -272,19 +264,19 @@ span {
   line-height: 140%;
   font-weight: bold;
   cursor : pointer;
-  display: block;
+  display: flex;
+  justify-content: space-between;
 }
 
 .bi-chevron-down{
-    margin-left: auto;
-
+    margin-left: 135px;
 }
 
 
 .theater {
   clear:both;
   position: absolute;
-  width: 315px;;
+  width: 315px;
   height:0px;
   overflow: hidden;
   transition: height .4s ease;
@@ -314,29 +306,6 @@ span {
 
 /* -----------下拉式選單:版本----------- */
 
-nav {
-    width : 315px; 
-    border: 1px solid #B1B1B1;
-    border-radius: 4px;
-    background-color: white;
-    
-  }
-  
-span {
-    padding : 10px 15px;
-    color: #3460A4;
-    font-size : 24px;
-    line-height: 140%;
-    font-weight: bold;
-    cursor : pointer;
-    display: block;
-  }
-  
-.bi-chevron-down{
-      margin-left: 135px;
-  
-  }
-  
   
 .dropdown .version {
     clear:both;
@@ -399,6 +368,10 @@ span {
     margin-top: 24px;
 }
 
+.movietime a{
+    text-decoration: none;
+}
+
 .movietime ul{
     display: flex;
     flex-wrap: wrap;
@@ -431,8 +404,8 @@ span {
 .movietime p{
     font-size: 20px;
     color: #4B4B4B;
-    line-height: 200%;
-    padding-bottom: 10px;
+    line-height: 160%;
+    padding-bottom: 13px;
 }
 
 .movietime button{
@@ -445,12 +418,6 @@ span {
     height: 40px;
     border: none;
 }
-
-
-
-
-
-
 
 
 /* --------------Footer------------ */
