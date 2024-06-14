@@ -1,0 +1,147 @@
+@media screen and (max-width: 1280px) {
+
+    /* -------------上方頁籤&所在步驟-------------- */
+    .top{
+        width: auto;
+    }
+    
+    .nav2{
+        width: auto;
+    }
+    
+    /* ----------最下方2個按鈕-------- */
+    .maindown{
+        width: auto;
+    }
+
+    /* ------------選擇票種--------------- */
+    .ticket{
+        width: auto;
+    }
+
+    .type{
+        padding: 5px;
+        justify-content: space-evenly
+    }
+
+
+}
+
+@media screen and (max-width: 1160px) {
+
+    .nav img{
+        margin-left: 20px;
+    }
+
+    /* ----------漢堡選單---------- */
+    .header .nav i{
+        display: block;
+    }
+
+    .header .nav i{
+        color: white;
+        font-size: 36px;
+        margin-right: 20px;
+    }
+
+    .navbar{
+        position: absolute;
+		background-color: #4A97D8;
+		left: 0;
+		top: 100px;
+		width: 100%;
+        display: none;
+    }
+
+    .navbar a{
+        font-size: 24px;
+        text-align: center;
+        line-height: 160%;
+        margin: 20px auto;
+
+    }
+
+    .navbar .btn1{
+        font-size: 24px;
+        margin: 0 auto;
+        background-color: #3460A4;
+        width: 162px;
+        height: 30px;
+    }
+
+    .nav i:hover ~ .navbar {
+        display: block;
+    }
+
+    /* ---------上方頁籤&所在步驟-------- */
+
+    .wrapper{
+        width: auto;
+    }
+
+    .top{
+        margin: 30px 20px;
+    }
+
+    /* ---------------選擇票種------------- */
+    .nav2{
+        margin-left: 20px;
+    }
+
+    .ticket{
+        width: auto;
+        justify-content: space-evenly;
+    }
+
+    /* ------------------選座位&電影簡介------------------ */
+    .main .container{
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .seatmap{
+        margin-right: 20px;
+    }
+
+    /* ------------------右下區------------------ */
+    .righttittle h1{
+        font-size: 18px;
+    }
+
+    .righttittle h2{
+        font-size: 16px;
+    }
+
+    .righttittle img{
+        margin-bottom: 8px;
+    }
+
+    .rightcontent ul li h3{
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1025px) {
+
+    .seatmap{
+        width: 100%;
+        margin-right: 0px;
+    }
+
+    .main .container{
+        flex-direction: column;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .right{
+        flex-direction: row;
+        gap: 24px;
+    }
+
+    .righttop{
+        margin-bottom: 24px;
+    }
+
+}
