@@ -20,6 +20,11 @@
 
 @media screen and (max-width: 1160px) {
 
+    .nav img{
+        margin-left: 20px;
+    }
+
+    /* ----------漢堡選單---------- */
     .header .nav i{
         display: block;
     }
@@ -59,11 +64,12 @@
         display: block;
     }
 
+    /* ---------頁籤--------- */
     .top {
         padding-left: 8px;
     }
 
-
+    /* ---------中間電影圖卡區塊--------- */
     .main .container{
         width: auto;
         gap: 16px;
@@ -98,6 +104,21 @@
 }
 
 @media screen and (max-width: 800px) {
+
+    /* ---------頁籤--------- */
+    .top{
+        justify-content: center;
+    }
+
+    .top .tab1{
+        font-size: 24px;
+    }
+
+    .top .tab2{
+        font-size: 24px;
+    }
+
+    /* ---------中間電影圖卡區塊--------- */
     .main .list{
         width: auto;
     }
@@ -141,6 +162,7 @@
         font-size: 20px;
     }
 
+    /* --------footer-------- */
     .footer{
         height: 65px;
         flex-direction: column;
@@ -156,5 +178,16 @@
     .footer a{
         font-size: 12px;
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    /* ---------頁籤--------- */
+    .top{
+        justify-content: space-evenly;
+        margin-right: 0;
+        padding-left: 0;
+    
     }
 }
