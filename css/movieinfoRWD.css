@@ -75,6 +75,7 @@
     .rightcenter h3{
         min-width: 120px;
     }
+}
 
 @media screen and (max-width: 820px) {
 
@@ -187,13 +188,6 @@
     }
 
     /* --------footer-------- */
-    .footer{
-        height: 65px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly
-    }
-
     .footer p{
         font-size: 12px;
         margin-top: 0;
@@ -202,6 +196,12 @@
     .footer a{
         font-size: 12px;
         margin-top: 0;
+    }
+
+    .copyright{
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
     }
 
 }
@@ -303,6 +303,4 @@
     #touch:checked + .theater {
         height: 500px;
     } 
-}
-
 }

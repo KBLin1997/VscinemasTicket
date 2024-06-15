@@ -423,20 +423,34 @@ span {
 /* --------------Footer------------ */
 .footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     background-color: #EFEFEF;
-    height: 60px;
+    height: 150px;
+    gap: 16px;
 }
 
-.footer p{
+.copyright{
+    margin: 0 auto;
+    display: flex;
+}
+
+.copyright p{
     text-align: center;
     color: #8B8B8B;
     margin-top: 22px;
 }
-.footer a{
+.copyright a{
     margin-top: 22px;
     color: #8B8B8B;
+}
+
+.disclaimer{
+    margin: 0 auto;
+}
+
+.disclaimer p{
+    text-align: center;
 }
 
 

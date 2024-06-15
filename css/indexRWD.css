@@ -163,12 +163,6 @@
     }
 
     /* --------footer-------- */
-    .footer{
-        height: 65px;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly
-    }
 
     .footer p{
         font-size: 12px;
@@ -178,6 +172,12 @@
     .footer a{
         font-size: 12px;
         margin-top: 0;
+    }
+
+    .copyright{
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
     }
 }
 
