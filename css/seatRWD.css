@@ -120,10 +120,16 @@
         font-size: 14px;
     }
 
+    /* -----------------購物車------------------ */
+    .cart h5{
+        width: 90px;
+    }
+
 }
 
 @media screen and (max-width: 1025px) {
 
+  /* ------------------選座位&電影簡介------------------ */
     .seatmap{
         width: 100%;
         margin-right: 0px;
@@ -144,4 +150,168 @@
         margin-bottom: 24px;
     }
 
+}
+
+@media screen and (max-width: 900px) {
+
+    /* -------------選擇票種---------------- */
+    .nav2{
+        margin-left: 0;
+    }
+
+    .nav-item{
+        font-size: 20px;
+    }
+
+    .ticketnav{
+        width: auto;
+        margin: 20px ;
+    }
+
+    .top{
+        border: none;
+        justify-content: center
+    }
+
+    .top .tab1{
+        display: none;
+    }
+
+    .top .tab2{
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .top .tab2 p{
+        font-size: 20px;
+    }
+
+    /* ------------------選座位&電影簡介------------------ */
+    .right{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* --------footer-------- */
+    .footer p{
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .footer a{
+        font-size: 12px;
+        margin-top: 0;
+    }
+
+    .copyright{
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* -------------選擇票種---------------- */
+    .nav-item {
+        font-size: 18px;
+        padding: 10px ;
+    }
+
+    .type{
+        width: 180px;
+        padding: 16px;
+    }
+
+    .picture{
+        width: auto;
+    }
+
+    .picture2{
+        width: 180px;
+    }
+
+    .picture3{
+        width: 180px;    
+    }
+
+    .type h2{
+        width: 180px;
+        font-size: 14px;
+    }
+
+    .type p{
+        width: 180px;
+        font-size: 12px;
+    }
+
+    .box {
+        width: 165px;
+    }
+
+    .seattittle{
+        flex-direction: column;
+        gap:16px;
+    }
+
+    .btn2{
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+
+    /* -------------選擇票種---------------- */
+    .nav-item {
+        font-size: 16px;
+    }
+
+    /* ------------------選座位&電影簡介------------------ */
+
+    .seats{
+        gap: 6px;
+    }
+
+    .right{
+        gap: 16px;
+    }
+
+    .rightpic{
+        margin-right: 10px;
+    }
+
+    .righttop{
+        width: auto;
+    }
+
+    .rightcontent ul li h3{
+        font-size: 12px;
+    }
+    /* ------------------購物車---------------- */
+    .cart{
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 393px) {
+
+    /* ----頁籤------ */
+    .top .tab2{
+        font-size: 16px;
+    }
+
+    .top .tab2 p{
+        font-size: 16px;
+    }
+
+    /* -------------選擇票種---------------- */
+    .nav-item {
+        font-size: 14px;
+    }
+
+    /* ------------------選座位&電影簡介------------------ */
+    .seats{
+        gap: 4px;
+    }
 }
