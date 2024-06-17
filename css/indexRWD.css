@@ -10,6 +10,7 @@
 
     .top{
         width: auto;
+        padding-left: 20px;
     }
 
     .main .container{
@@ -62,11 +63,6 @@
 
     .nav i:hover ~ .navbar {
         display: block;
-    }
-
-    /* ---------頁籤--------- */
-    .top {
-        padding-left: 8px;
     }
 
     /* ---------中間電影圖卡區塊--------- */

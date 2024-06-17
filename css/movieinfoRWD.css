@@ -292,6 +292,10 @@
         margin: 0 auto;
     }
 
+    .bi-chevron-down{
+        margin-left: 15px;
+    }
+
     .theater {
         width: 170px;
     }
