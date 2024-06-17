@@ -329,6 +329,8 @@ input{
     justify-content: space-around;
     width: auto;
     margin: 0 auto;
+    overflow: hidden;
+
 }
 
 .seats{
@@ -337,6 +339,7 @@ input{
     gap: 8px;
     width: auto;
     align-items: center
+
 }
 
 .seat input[type=checkbox] {

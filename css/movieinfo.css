@@ -48,7 +48,6 @@ body{
 }
 
 .navbar a:hover{
-
     color: #C7DFF3;
 }
 
@@ -279,7 +278,7 @@ span {
   width: 315px;
   height:0px;
   overflow: hidden;
-  transition: height .4s ease;
+  transition: .4s ease;
   background-color: #ffffff;
   border-radius: 4px;
   margin-top: 8px;
@@ -313,7 +312,7 @@ span {
     width: 315px;;
     height:0px;
     overflow: hidden;
-    transition: height .4s ease;
+    transition: .4s ease;
     background-color: #ffffff;
     border-radius: 4px;
     margin-top: 8px;
@@ -354,7 +353,7 @@ span {
     color: #4B4B4B;
     line-height: 160%;
     border-bottom: 2px solid #4B4B4B;
-    margin-bottom: 10px;
+    margin: 24px 0 16px 0;
 }
 
 .tomorrow h5{
@@ -364,8 +363,7 @@ span {
     color: #4B4B4B;
     line-height: 160%;
     border-bottom: 2px solid #4B4B4B;
-    margin-bottom: 10px;
-    margin-top: 24px;
+    margin: 24px 0 16px 0;
 }
 
 .movietime a{
@@ -388,10 +386,12 @@ span {
     height: 170px;
     text-align: center;
     overflow: hidden;
+    transition: 0.3s ease;
 }
 
 .movietime li:hover{
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    transform: translateY(-8px);
 }
 
 .movietime h6{

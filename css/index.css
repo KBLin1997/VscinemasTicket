@@ -68,6 +68,89 @@ body{
     background-color: #C7DFF3;
 }
 
+/* ----------彈出視窗----------- */
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+  }
+
+  .popup{
+    width: 1160px;
+    max-height: 600px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    overflow-y: auto;
+  }
+
+  .popup i{
+    font-size: 36px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    line-height: 1;
+    color: #3460A4;
+  }
+
+  .popup i:hover{
+    color: #4A97D8;
+  }
+
+  .popup h3{
+    text-align:start;
+    display: block;
+    color: #3460A4;
+    border-left: 7px solid #3460A4;
+    font-size: 24px;
+    padding-left: 18px;
+    margin: 1em 0;
+    font-weight: bold;
+  }
+
+  .popup p{
+    color: #4B4B4B;
+    border: 1px solid #3460A4;
+    border-radius: 4px;
+    line-height: 200%;
+    padding: 8px;
+    max-height: 275px;
+    overflow-y: auto;
+  }
+
+  .popup .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .popup .btn button{
+    width: 238px;
+    height: 45px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    line-height: 140%;
+    font-weight: bold;
+    background-color: #3460A4;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .popup .btn button:hover{
+    background-color: #4A97D8;
+  }
+
 /* ------------選電影區塊------------- */
 .wrapper{
     width: 1160px;
@@ -116,14 +199,12 @@ body{
     justify-content:flex-start;
     gap: 14.5px;
     flex-wrap: wrap;
-
 }
 
 .main .list{
     width: 279px;
     margin: 20px auto;
 }
-
 
 .main .list img{
     width: 279px;
@@ -191,6 +272,7 @@ body{
     background-color: #4A97D8;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .main .list button:hover{
