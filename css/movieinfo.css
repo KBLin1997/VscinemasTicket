@@ -71,7 +71,6 @@ body{
 
 /* ------------------電影簡介&線上訂票------------------- */
 .wrapper{
-    
     background-color: white;
     margin: 0 auto;
 }
@@ -215,6 +214,7 @@ body{
 .maindown{
     background-color: #F3F3F3;
     padding-top: 10px;
+    min-height: 100vh;
 }
 
 /* ------------區域標題-------------- */

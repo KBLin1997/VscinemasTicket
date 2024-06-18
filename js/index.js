@@ -10,14 +10,13 @@ $(function(){
   
     $('.mask').click(function(e){
       $(this).removeAttr('style');
-      console.log(e.eventPhase);
+    //   console.log(e.eventPhase);
     })
   
     $('.popup').click(function(e){
       e.stopPropagation();
-      // return false;
-      console.log(e.eventPhase);
-    })
-      
+    //   console.log(e.eventPhase);
+    }) 
   
   })
+

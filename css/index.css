@@ -83,7 +83,7 @@ body{
     width: 1160px;
     max-height: 600px;
     padding: 30px;
-    background-color: #fff;
+    background-color: #f3f3f3;
     border-radius: 10px;
     position: absolute;
     left: 50%;
@@ -156,6 +156,7 @@ body{
     width: 1160px;
     background-color: white;
     margin: 0 auto;
+    min-height: 100vh;
 }
 
 /* ------------------頁籤------------------- */
@@ -185,7 +186,6 @@ body{
     font-weight:bold;
     margin-top: 8px;;
 }
-
 
 /* ------------------中間電影圖卡區塊------------------ */
 .main{
